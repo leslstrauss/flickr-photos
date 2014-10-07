@@ -1,8 +1,5 @@
 console.log('working');
 
-
-
-
 $(function() {
     $.ajax({
         type: "GET",
