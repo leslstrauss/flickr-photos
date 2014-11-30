@@ -24,7 +24,7 @@ $(function() {
               .addClass("grid-wrap")
               .addClass("grid")
 
-              .appendTo('section');
+              .appendTo('grid-gallery');
           });
 
         },
