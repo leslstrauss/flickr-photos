@@ -15,15 +15,16 @@
               serverID + '/' +
               id + '_' +
               secret + '.jpg';
-            console.log(imageURL);
 
             $('<img>')
               .attr('src', imageURL)
               .attr('alt', 'Image')
-              .addClass("grid-wrap")
-              .addClass("grid")
+              .addClass('th')
+              .appendTo('li');
 
-              .appendTo('grid-gallery');
+            $('<a>')
+            .attr('href', imageURL)
+            .appendTo('li');
           });
 
         },
