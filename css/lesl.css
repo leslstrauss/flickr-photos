@@ -40,4 +40,14 @@
 img {
   width: 500px !important;
   height: 330px !important;
+  border: 5px !important;
+}
+
+body {
+  background-color: #000000 !important;
+}
+
+h1 {
+  color: #ffffff !important;
+  text-align: center !important;
 }
