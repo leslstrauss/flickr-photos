@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
 
 .flexcontainer {
    display: -webkit-flex;
@@ -51,4 +52,5 @@ body {
 h1 {
   color: #ffffff !important;
   text-align: center !important;
+  font-family: "Raleway", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 }
